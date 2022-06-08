@@ -20,7 +20,7 @@ const AddTask = () => {
 
   return (
       <Section>
-        <h1>Add Task</h1>
+        <h1>Add a task</h1>
         <form onSubmit={handleSubmit}>
           <label>New task:
              <input type="text" onChange={(e) => setTask(e.target.value)}/>

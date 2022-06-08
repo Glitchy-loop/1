@@ -5,6 +5,7 @@ export const Nav = styled.nav`
   display: flex;
   width: 15rem;
   margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
 `
 
 export const StyledLink = styled(Link)`
